@@ -1,6 +1,4 @@
-# Projeto Encrypt Text
-
-Olá, esse é meu projeto Codificador e Descodificador de textos.
+# Projeto Codificador e Decodificador
 
 ## Conteúdo:
 
