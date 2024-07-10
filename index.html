@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+
+</head>
+<body>
+    <header class="container-cabecalho"> 
+        <a class="logoAlura" target="_blank" href="https://www.alura.com.br/"><img src="/assets/LogoAlura.png" alt="Logo da empresa Alura"></a>   
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informação">
+                <h6 class="informacao">Apenas letras <spam>minúsculas</spam> e <spam>sem acento.</spam></h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()"> Criptografar </button>
+                <button class="btn-descriptar" onclick="btnDesencriptar()"> Descriptografar </button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar"> Copiar </button>
+        </section>
+    </main>
+    <footer class="rodape-main">
+        <nav class="rodape-icons">
+            <h3>Desenvolvido por <spam>Luana Nascimento</spam> durante o programa <spam>"ONE - Oracle Next Education 2024".</spam></h3>
+            <a href="https://www.linkedin.com/in/luananascimentodev" target="_blank" ><img src="assets/linkedin_logo.svg" width="50px" alt="icon do LinkedIn"></a>
+            <a href="https://github.com/Luana-Nascimento" target="_blank" ><img src="assets/github_logo.svg" width="50px" alt="Icon do GitHub"></a>
+        </nav> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
